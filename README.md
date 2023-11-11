@@ -220,7 +220,7 @@ h2 {
 
 ##
 
-## Text Stroke
+## 9. Text Stroke
 
 ```html
 <h2 class="h2">LANGUAGE</h2>
