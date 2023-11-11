@@ -1,0 +1,8 @@
+body {
+    display: grid;
+    place-items: center;
+}
+
+img {
+    filter: drop-shadow(10px 10px 20px #111);
+}
