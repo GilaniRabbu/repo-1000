@@ -1,0 +1,7 @@
+.h2 {
+    font-size: 110px;
+    font-weight: 900;
+    text-align: center;
+    -webkit-text-stroke: 4px #483D8B;
+    color: transparent;
+}
