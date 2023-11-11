@@ -1,0 +1,20 @@
+body {
+    display: grid;
+    place-items: center;
+    min-height: 90vh;
+}
+
+#gradient-border {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: linear-gradient(#D8114D, #362AA5, #1ADBC2, #362AA5, #D8114D);
+    padding: 7px;
+}
+
+#gradient-border img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
