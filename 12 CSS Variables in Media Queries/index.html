@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Variables in Media Queries</title>
+    <style>
+        body {
+            background-color: #111;
+            text-align: center;
+        }
+
+        h1 {
+            --color: #0096FF;
+            --font-size: 30px;
+            color: var(--color);
+            font-size: var(--font-size);
+        }
+
+        @media screen and (min-width: 768px) {
+            h1 {
+                --color: #90EE90;
+                --font-size: 50px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1>CSS Variables in Media Queries</h1>
+</body>
+
+</html>
