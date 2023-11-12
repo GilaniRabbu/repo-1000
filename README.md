@@ -10,6 +10,7 @@
 8. [Gradient Border](#8-gradient-border)
 9. [Text Stroke](#9-text-stroke)
 10. [CSS Cards](#10-css-cards)
+11. [Center Align Elements](#11-center-align-elements)
 
 ##
 
@@ -275,6 +276,24 @@ h2 {
 
 .container {
   padding: 0.6rem;
+}
+```
+
+##
+
+## 11. Center Align Elements
+
+```html
+<body>
+  <h1>Center Align Elements</h1>
+</body>
+```
+
+```css
+body {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
 }
 ```
 
