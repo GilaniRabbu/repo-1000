@@ -11,6 +11,9 @@
 9. [Text Stroke](#9-text-stroke)
 10. [CSS Cards](#10-css-cards)
 11. [Center Align Elements](#11-center-align-elements)
+12. [CSS Variables in Media Queries](#12-css-variables-in-media-queries)
+13. [Responsive Layout Tricks](#13-responsive-layout-tricks)
+14. [Shadow Hover Effect](#14-shadow-hover-effect)
 
 ##
 
@@ -296,5 +299,17 @@ body {
   min-height: 100vh;
 }
 ```
+
+##
+
+## 12. CSS Variables in Media Queries
+
+##
+
+## 13. Responsive Layout Tricks
+
+##
+
+## 14. Shadow Hover Effect
 
 ## 🚀
