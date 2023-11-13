@@ -1,0 +1,33 @@
+body {
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+}
+
+.link {
+    color: #4169E1;
+    font-size: 1.5rem;
+    font-weight: 900;
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+    position: relative;
+}
+
+.link:hover {
+    opacity: 0.9;
+}
+
+.link::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    height: 3px;
+    width: 0%;
+    background: #4169E1;
+    transition: all ease 1s;
+}
+
+.link:hover::after {
+    width: 100%;
+}
