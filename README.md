@@ -14,6 +14,7 @@
 12. [CSS Variables in Media Queries](#12-css-variables-in-media-queries)
 13. [Responsive Layout Tricks](#13-responsive-layout-tricks)
 14. [Shadow Hover Effect](#14-shadow-hover-effect)
+15. [Underline Hover Effect](#15-underline-hover-effect)
 
 ##
 
@@ -311,5 +312,43 @@ body {
 ##
 
 ## 14. Shadow Hover Effect
+
+##
+
+## 15. Underline Hover Effect
+
+```html
+<a href="#" class="link">Click Here</a>
+```
+
+```css
+.link {
+  color: #4169E1;
+  font-size: 1.5rem;
+  font-weight: 900;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  position: relative;
+}
+
+.link:hover {
+  opacity: 0.9;
+}
+
+.link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  height: 3px;
+  width: 0%;
+  background: #4169E1;
+  transition: all ease 1s;
+}
+
+.link:hover::after {
+  width: 100%;
+}
+```
 
 ## 🚀
