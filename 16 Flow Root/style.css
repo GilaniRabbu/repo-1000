@@ -1,0 +1,38 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 1.125rem;
+    font-family: monospace;
+    line-height: 1.5;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+section {
+    padding: 3rem 0.25rem;
+}
+
+.card {
+    display: flow-root;
+    width: min(80%, 45em);
+    margin: 0 auto 2.5em;
+    padding: 3em;
+    box-shadow: 0 0 1.5em rgba(0, 0, 0, 0.25);
+}
+
+.card__img {
+    float: left;
+    margin: 0 1em 1em 0;
+}
