@@ -15,6 +15,7 @@
 13. [Responsive Layout Tricks](#13-responsive-layout-tricks)
 14. [Shadow Hover Effect](#14-shadow-hover-effect)
 15. [Underline Hover Effect](#15-underline-hover-effect)
+16. [Flow Root](#16-flow-root)
 
 ##
 
@@ -348,6 +349,36 @@ body {
 
 .link:hover::after {
   width: 100%;
+}
+```
+
+##
+
+## 16. Flow Root
+
+```html
+<div class="card">
+  <img src="img.jpg" class="card__img" width="110" alt="...">
+  <h2>An Interesting Thing</h2>
+  <p>
+    But a the and still purple this tempter me never.
+    Still back ghastly my it. Broken and sitting than forgotten.
+  </p>
+</div>
+```
+
+```css
+.card {
+  display: flow-root;
+  width: min(80%, 45em);
+  margin: 0 auto 2.5em;
+  padding: 3em;
+  box-shadow: 0 0 1.5em rgba(0, 0, 0, 0.25);
+}
+
+.card__img {
+  float: left;
+  margin: 0 1em 1em 0;
 }
 ```
 
