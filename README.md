@@ -17,6 +17,7 @@
 15. [Underline Hover Effect](#15-underline-hover-effect)
 16. [Flow Root](#16-flow-root)
 17. [Equal Width Table Cells](#17-equal-width-table-cells)
+18. [Lists Style](#18-lists-style)
 
 ##
 
@@ -386,6 +387,14 @@ body {
 ##
 
 ## 17. Equal Width Table Cells
+
+```html
+----------
+```
+
+##
+
+## 18. Lists Style
 
 ```html
 ----------
