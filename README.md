@@ -16,6 +16,7 @@
 14. [Shadow Hover Effect](#14-shadow-hover-effect)
 15. [Underline Hover Effect](#15-underline-hover-effect)
 16. [Flow Root](#16-flow-root)
+17. [Equal Width Table Cells](#17-equal-width-table-cells)
 
 ##
 
@@ -380,6 +381,14 @@ body {
   float: left;
   margin: 0 1em 1em 0;
 }
+```
+
+##
+
+## 17. Equal Width Table Cells
+
+```html
+----------
 ```
 
 ## 🚀
